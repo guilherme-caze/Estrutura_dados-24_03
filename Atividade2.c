@@ -13,7 +13,7 @@ int partition(struct Carros arr[], int low, int high) {
     struct Carros pivot = arr[high]; // Pivô é o último elemento
     int i = low - 1; // Índice do menor elemento
     for (int j = low; j < high; j++) {
-        if (arr[j].potencia > pivot.potencia) { // Compara pela potencia
+        if (arr[j].potencia < pivot.potencia) { // Compara pela potencia
             i++;
             struct Carros temp = arr[i];
             arr[i] = arr[j];
