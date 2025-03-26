@@ -46,7 +46,6 @@ int main(){
         {"Bmw M4", 900, "Bmw"},
         {"Uno", 80, "Fiat"},
         {"McQueen", 1000, "Rusteze"}
-
     };
 
     int size = sizeof(carros) / sizeof(carros[0]);
